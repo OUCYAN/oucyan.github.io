@@ -1,8 +1,41 @@
+body
+{
+    background-color: rgb(44,47,51);
+    background: #1d1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header
 {
-    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 1em;
+    background-color: rgb(35,39,42);
+    color: rgb(153,170,181);
 }
 footer
 {
-    background-color: rgb(184, 69, 69);
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 1em;
+    background-color: rgb(35,39,42);
+    color: rgb(153,170,181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas
+{
+    height: 60%;
+    width: 80%;
 }
