@@ -1,0 +1,42 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile
+{
+    margin:5em;
+    margin-top: 11em;
+    width: 80%;
+    color: white;
+}
+#profileImage
+{
+    margin-left: -10em;
+    margin-top: 2.5em;
+    border: solid 10px white;
+    border-radius: 50%;
+}
+#profileContent
+{   
+    float: right;
+    margin-right: 20em;
+    margin-top: 2em;
+}
+#socials img
+{
+    Border: none;
+    width: 30px;
+    height: 30px;
+}
+#socials img:hover
+{
+    box-shadow: 0px 0px 0px 5px white;
+    border-radius: 50%;
+}
+#twitchLink
+{
+    text-decoration: none;
+    color: purple;
+}
