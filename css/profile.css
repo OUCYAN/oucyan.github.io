@@ -1,15 +1,12 @@
-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 #profile
 {
     margin:5em;
     margin-top: 11em;
     width: 80%;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #profileImage
 {
@@ -21,8 +18,10 @@ body
 #profileContent
 {   
     float: right;
-    margin-right: 20em;
+    margin-right: 5em;
+    margin-left: 5em;
     margin-top: 2em;
+    overflow:inherit;
 }
 #socials img
 {
