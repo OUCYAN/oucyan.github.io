@@ -11,13 +11,14 @@ header
 {
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 70px;
     left: 0;
     right: 0;
     text-align: center;
     padding-top: 1em;
     background-color: rgb(35,39,42);
     color: rgb(153,170,181);
+    display: flex;
 }
 footer
 {
@@ -38,4 +39,88 @@ canvas
 {
     height: 60%;
     width: 80%;
+}
+#Profile
+{
+    display:block;
+    float: left;
+}
+
+#Name
+{
+    float : right;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+#Logo
+{
+    margin-left: 10px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+#Logo:hover
+{
+    filter: grayscale(80%);
+}
+.contact
+{
+    margin-left: 10px;
+    margin-top: 16px;
+    margin-right: 0px;
+}
+.contact img
+{
+    width: 30px;
+    height: 30px;
+}
+.contact img:hover
+{
+    border: solid 4px white;
+    border-radius: 5em;
+}
+a
+{
+    text-decoration:  none;
+}
+#cardContainer
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    border: solid 2px white;
+    border-radius: 2em;
+    margin-left: 5em;
+    margin-top: 8em;
+    color: white;
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    transition: 0.2s;
+}
+.card:hover
+{
+   border: solid 15px white;
+   transition: 0.2s;
+}
+.cardHeader
+{
+    top: 0em;
+}
+.cardInfo
+{
+    bottom: 0px;
+}
+.card image
+{
+    position: absolute;
 }
