@@ -1,0 +1,28 @@
+#gamePreviewContainer
+{
+    overflow: hidden;
+    width: 100%; 
+    margin-bottom: 5em;
+    margin-top: 5em;
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;  
+}
+.gamePreview
+{
+    border: solid 2px white;
+    overflow-y: hidden;
+    width: 40%;;
+    color: white;
+    margin: 4em;
+}
+.gamePreview img
+{
+    width: 50%;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}

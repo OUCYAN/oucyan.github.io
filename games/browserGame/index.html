@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>OUCYAN - Browser Game</title>
+    <link rel="icon" href="../../src/img/logo.png">    
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/index.css"/> 
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <header>
+      <a id="Profile" href="../../index.html">
+          <img id="Logo" src="../../src/img/logo.png" height="50px" width="50px">
+          <h1 id="Name">
+              OUCYAN
+              <p id="aboutLink">Back To Homepage</p>
+          </h1>  
+      </a>        
+      <div class="contact">
+          <a href="https://www.twitch.tv/oucyan" target="_blank" rel="noopener noreferrer">
+              <img src="../../src/img/twitch.png">
+          </a>
+          <a href="https://www.youtube.com/channel/UC4Fhp9szbRUVMGfsds4SBaw" target="_blank" rel="noopener noreferrer">
+              <img src="../../src/img/youtube.png">
+          </a>
+          <a href="https://discord.com/invite/nBzYVmhJE8" target="_blank" rel="noopener noreferrer">
+              <img src="../../src/img/discord.png">
+          </a>
+          <a href="https://twitter.com/OUCYANDEV" target="_blank" rel="noopener noreferrer">
+              <img src="../../src/img/twitter.png">
+          </a>
+      </div> 
+      </header>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
