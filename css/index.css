@@ -143,3 +143,30 @@ a
     align-items: center;
     font-weight: bolder;
 }
+.category
+{
+    border: solid 5px white;
+    transition: all 250ms ease;
+    display: flex;
+    height: 35em;
+    width: 17.5em;   
+    margin-left: 6em;
+    margin-top: 10%;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: rgb(35,39,42);
+    font-size: 0.8vw;
+}
+.category img
+{
+    max-width: 100%;
+    max-height: 50%;
+}
+.category:hover
+{
+    transition: all 250ms ease;
+    transform: scale(1.1);
+}
+
