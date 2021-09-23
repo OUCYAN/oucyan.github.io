@@ -145,6 +145,7 @@ a
 }
 .category
 {
+    transition: all .5s ease-in;
     border: solid 5px white;
     transition: all 250ms ease;
     display: flex;
@@ -169,4 +170,36 @@ a
     transition: all 250ms ease;
     transform: scale(1.1);
 }
+.category h2
+{
+    margin-top: 1em;
+}
+
+#supporterList
+{
+    position: absolute;
+    padding-bottom: 100px;
+    width: auto;
+    margin: auto;
+    margin-top: 60vw;
+    text-align: center;
+}
+#Twitch
+{
+
+}
+.supporterNameTwitch
+{
+    color:#694ff5;
+    font-weight: bold;
+}
+#Patreon
+{
+
+}
+.supporterNamePatreon
+{
+    color:coral;
+}
+
 
