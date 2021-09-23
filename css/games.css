@@ -1,21 +1,24 @@
 #gamePreviewContainer
 {
     overflow: hidden;
-    width: 100%; 
+    width: auto;
+    margin: auto; 
     margin-bottom: 5em;
     margin-top: 5em;
     color: white;
     display: grid;
     justify-content: center;
     text-align: center;  
-    margin-left: 30%;
+    
 }
 .gamePreview
 {
     border: solid 2px white;
     overflow-y: hidden;
-    width: 40%;;
+    width: 40%;
     color: white;
+    background-color: rgb(35,39,42);
+    display: inline-block;
     margin: 4em;
 }
 .gamePreview img
