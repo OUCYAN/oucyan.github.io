@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>OUCYAN - Browser Game</title>
+    <title>OUCYAN - CityBuilder3D</title>
     <link rel="icon" href="../../src/img/logo.png">    
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="stylesheet" type="text/css" href="../../css/index.css"/> 
@@ -15,28 +15,30 @@
   </head>
   <body>
     <header>
-      <a id="Profile" href="../../index.html">
+      <a id="Profile" href="../../games.html">
           <img id="Logo" src="../../src/img/logo.png" height="50px" width="50px">
           <h1 id="Name">
               OUCYAN
-              <p id="aboutLink">Back To Homepage</p>
+              <p id="aboutLink">Back To Games</p>
           </h1>  
       </a>        
+      <!--Contact-->
       <a href="https://linktr.ee/OUCYAN" target="_blank" rel="noopener noreferrer">  
-        <div class="contact" >   
-            <span>Linktree</span>
-            <img src="../../src/img/linktree.png" alt="Linktree">
-        </div> 
-    </a>
-      </header>
+          <div class="contact" >   
+              <span>Linktree</span>
+              <img src="../../src/img/linktree.png" alt="Linktree">
+          </div> 
+      </a>
+  </header>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
       </div>
     </div>
+    <div>
+      <button id="fullscreenButton"  onclick="unityInstance.SetFullscreen(1)">Click To Activate Fullscreen</button>
+    </div>      
     <footer>
-        <a id="gamesButton" href="../../pages/games.html">View Games</a>
-        <button id="fullscreenButton"  onclick="unityInstance.SetFullscreen(1)">Click To Activate Fullscreen</button>
     </footer>
   </body>
 </html>
