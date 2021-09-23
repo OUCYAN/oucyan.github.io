@@ -184,22 +184,14 @@ a
     margin-top: 60vw;
     text-align: center;
 }
-#Twitch
-{
-
-}
 .supporterNameTwitch
 {
-    color:#694ff5;
+    color:#6341a4;
     font-weight: bold;
-}
-#Patreon
-{
-
 }
 .supporterNamePatreon
 {
-    color:coral;
+    color:#e6461a;
 }
 
 
