@@ -17,19 +17,19 @@ section
     justify-content: center;
     align-items: center;
     min-height: 100vh;    
-    background-color: #00d0ff98;
+    background-color: #23272a;
 }
 section .color
 {
     position: absolute;
-    filter: blur(150px); 
-    border-radius: 90%;   
+    /*filter: blur(50px); */
+    border-radius: 120%;   
     display: flex;
     justify-content: center;
     align-items: center;
     width: 800px;
     min-height: 800px;
-    background: #684ff5ab;
+    background: #5600a7;
 }
 .box
 {
@@ -108,6 +108,7 @@ section .color
     color: #666;
     max-width: 100px;
     cursor: pointer;
+    padding-left: 10px;
     margin-bottom: 20px;
     font-weight: 600;
 }
