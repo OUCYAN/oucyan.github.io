@@ -22,6 +22,7 @@ body
 {
     color: white;
     text-align: center;
+    margin-top: 2.5em;
 }
 #pageInfo h1
 {
@@ -35,40 +36,76 @@ header
 {
     position: fixed;
     top: 0;
-    height: 70px;
+    height: 35px;
     left: 0;
     right: 0;
     text-align: center;
     padding-top: 1em;
-    background-color: rgb(35,39,42);
-    color: rgb(153,170,181);
-    display: flex;
-    border-bottom: solid 5px white;
+    background-color: #202337;
+    color: white;
+    margin-bottom: 5em;
 }
 footer
 {
     position: fixed;
-    bottom: 0;
-    height: 50px;
+    display: block;
+    bottom: 10;
+    height: 40px;
     left: 0;
     right: 0;
     text-align: center;
     padding-top: 1em;
-    background-color: rgb(35,39,42);
-    color: rgb(153,170,181);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: solid 5px white;
+    background-color: #202337;;
+    color: white;
+    margin-bottom: -140em;
+    
+}
+#contactInfo
+{
+    border: solid 1px white;
+    padding: 1em;
+    color: white;
+    position: absolute;
+    margin-top: 120em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+#contactInfo a
+{
+    display: block;
+    width: auto;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 0.1em;
+    border: solid 2px  #0aaff1;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.356);
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#contactInfo a:hover
+{
+    background-color: rgba(0, 0, 0, 0.822);
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 15px #0aaff1;
 }
 canvas
 {
     height: 60%;
     width: 80%;
 }
-button
+#card a
 {
-    width: 80%;
+    display: block;
+    width: auto;
     border: none;
     outline: none;
     padding: 10px 20px;
@@ -83,6 +120,13 @@ button
     margin-bottom: 25px;
     left: 42.5%;
     position: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#card a:hover
+{
+    box-shadow: 0 0 15px 4px white;
+    transition: 0.3s;
 }
 
 #card
