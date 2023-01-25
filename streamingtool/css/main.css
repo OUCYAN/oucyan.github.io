@@ -1,0 +1,95 @@
+body {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+#downloadOptions {
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5%;
+    text-align: center;
+    height: 80vh;
+}
+
+.downloadOption {
+    border: solid 2px white;
+    border-radius: 0.4em;
+    background-color: #1f1f23;
+    height: 100%;
+    align-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.downloadOption-Logo {
+    margin: auto;
+    background-color: inherit;
+    margin-top: 5%;
+    width: 25%;
+}
+
+.downloadOption-header {
+    font-weight: bold;
+    font-size: 200%;
+    background-color: inherit;
+}
+
+.downloadOptions-features {
+    height: auto;
+    display: grid;
+    background-color: inherit;
+    align-items: center;
+}
+
+.downloadOption-feature {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    vertical-align: middle;
+    background-color: inherit;
+    margin-left: 3vh;
+    overflow: hidden;
+}
+
+.downloadOption-feature-icon {
+    width: 90%;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: inherit;
+}
+
+.downloadOption-feature-text {
+    grid-column: 2;
+    grid-row: 1; 
+    background-color: inherit;
+    text-align: left;
+    margin-left: 3.5vh;
+}
+
+.downloadOption-link {
+    background-image: linear-gradient(to bottom right, #1d68b9, #2399cc);
+    color: #0f1832;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    grid-row: 3;
+    margin-top: 10vh;
+    height: 2.5vh;
+    padding: 5%;
+    font-size: 2vh;
+    width: 80%;
+    font-style: none;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.downloadOption-link:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(36, 114, 204, 0.4);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
