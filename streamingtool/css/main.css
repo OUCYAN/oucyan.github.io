@@ -1,6 +1,7 @@
 body {
     background-color: #0f0f0f;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 #downloadOptions {
@@ -19,7 +20,7 @@ body {
     height: 100%;
     align-content: center;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2.5vh;
 }
 
 .downloadOption-Logo {
@@ -87,6 +88,28 @@ body {
 .downloadOption-link:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(36, 114, 204, 0.4);
+}
+
+.downloadOption-link-mongo {
+    background-image: linear-gradient(to bottom right, #0e776d, #00ed64);
+    color: #001e2b;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    grid-row: 4;
+    height: 2.5vh;
+    padding: 5%;
+    font-size: 2vh;
+    width: 80%;
+    font-style: none;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -8vh;
+    margin-bottom: 2vh;
+}
+
+.downloadOption-link-mongo:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(21, 216, 102, 0.4);
 }
 
 a {
