@@ -36,13 +36,21 @@ body {
     font-size: 2rem;
 }
 
-.loading-title:after {
-    content: var(--blazor-load-percentage-text, "Loading");
-}
-
-
 .loading-info {
     color: white;
+}
+
+.loading-progress {
+    position: relative;
+}
+
+.loading-progress-text {
+    color: white;
+    margin-top: -3.25rem;
+}
+
+.loading-progress-text:after {
+    content: var(--blazor-load-percentage-text, "0%");
 }
 
 .lds-ring {
